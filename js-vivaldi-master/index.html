@@ -16,18 +16,18 @@
     <h2>Four Seasons</h2>
     <p>The Four Seasons is a group of four violin concertos. Each concerto gives musical expression to a season of the
       year.</p>
-    <img src="images/spring.jpg" alt="Spring" width="700px">
-    <p class="center">Spring Concerto:
-      <audio controls>
+    <img id='main-image="images/spring.jpg" alt="Spring" width="700px">
+    <p class="center"><span id='season-text'>Spring</span>Concerto
+      <audio id='song'controls>
         <source src="songs/vivaldi-spring.mp3" type="audio/mpeg">
         Your browser does not support the audio tag.
       </audio>
     </p>
     <p class="center">
-      <button class="springBtn activeBtn">Spring</button>
-      <button class="summerBtn">Summer</button>
-      <button class="autumnBtn">Autumn</button>
-      <button class="winterBtn">Winter</button>
+      <button id="springBtn" class="activeBtn">Spring</button>
+      <button id="summerBtn">Summer</button>
+      <button id="autumnBtn">Autumn</button>
+      <button id="winterBtn">Winter</button>
     </p>
     <hr>
 
@@ -69,6 +69,7 @@
       </li>
     </ul>
   </div>
+  <script src="main.js"></script>
 
 </body>
 
