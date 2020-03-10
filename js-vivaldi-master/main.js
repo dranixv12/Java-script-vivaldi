@@ -1,11 +1,8 @@
 //Vivaldi JS (ex)
 //When Summer button clicked
-document.getElementById('summerBtn') .addEventListener('click,setSummer')
+document.getElementById('summerBtn').addEventListener('click', setSummer)
 //Event Function//
-function setSummer() {
-
-console.log('set summer')
-
+function setSummer() {  
   //Change text concerto text text
   document.getElementById('season-text') .innerHTML ='Summer';
   //change main images
